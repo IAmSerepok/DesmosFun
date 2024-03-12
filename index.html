@@ -39,7 +39,7 @@
         }
 
         let sub_color = interpolateColor(colors[l], colors[r], gradientFactor / 10);
-        calculator.setExpression({ id: 'line1', latex: 'y=x!', color:sub_color });
+        calculator.setExpression({ id: 'line1', color:sub_color });
       }
         
       setInterval(blink, 50); // интервал указывается в миллисекундах
