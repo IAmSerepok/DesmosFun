@@ -1,0 +1,28 @@
+body{
+    margin: 0; 
+    overflow: hidden;
+}
+#calculator{
+    width: 100%;  
+    margin: 0 auto;
+    opacity: 85%;
+}
+#myImg1{
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#myImg2{
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 600px;
+}
+#myImg3{
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 1200px;
+}
+  
